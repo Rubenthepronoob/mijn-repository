@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 5000%;
+    width: 100%;
+}
+#topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#reddit-logo {
+    position: absolute;
+    left: 19px;
+    margin-top: -13px;
+    margin-bottom: 9px;
+    width: 76px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#header {
+    padding-bottom: 4px;
+    width: 100%;
+    margin-left: -10px;
+    border-bottom: 1px solid #C6C6C6;
+}
+#searchbar {
+    margin-top: -1px;
+    margin-bottom: 3px;
+    margin-left: -10px;
+    padding-left: 10px;
+    width: 550px;
+    height: 38px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border: 1px solid transparent; 
+    border-radius: 50px;
+    text-align: center;
+    /* dit hier onder weet ik nog niet hoe dit werkt*/
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #FF4500, #ffb300);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    outline: none; 
+}
