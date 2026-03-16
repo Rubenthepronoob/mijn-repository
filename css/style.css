@@ -71,6 +71,11 @@ body {
     text-align: center;
     cursor: text;
     color: #8e8e8e;
+
+}
+#searchbarinput:focus {
+    outline: none;
+    text-align: left;
 }
 #searchbarinput::placeholder {
     padding-left: 5px;
