@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <title>Reddit: het hart van het internet</title>
     <link rel="stylesheet" href="css/style.css">
@@ -8,18 +9,36 @@
     <header id="header">
         <div class="topnav" id="topbar">
             <a href="mijn eigen reddit.html">
-            <img id="reddit-logo" src="images/Reddittekst.png" alt="Reddit">
+                <button>
+                    <img id="reddit-logo" src="images/Reddittekst.png" alt="Reddit">
+                    <link rel="stylesheet" href="mijn eigen reddit.html">
+                </button>
             </a>  
             <div id="searchbar">
-                <img src="images/reddit-icon.png" height="28px">
-                <input type="text" placeholder="      Vind wat je zoekt" id="searchbarinput">
-                <span class="separator">|</span>
-                <button type="button" id="searchBtn">
-                    <img src="images/askquestionbutton.png" alt="Ask question"  id="wierdpng">Vraag stellen
+                <img src="images/reddit-icon.png" id="searchicon">
+                <input type="text" placeholder="Vind wat je zoekt" id="searchbarinput">
+                <span class="separator" id="separator1">|<br>|<br>|</span>
+                <button type="button" id="askBtn">
+                    Vraag stellen
                 </button>
             </div>
-
+            <div id="rightbuttons">
+            <button type="button" id="downloadapp">App downloaden</button>
+            <button type="button" id="loginBtn">Inloggen</button>
+            <button type="button" id="threepoints">...</button>
+            </div>
         </div>
     </header>
+    <div id="leftbar">
+        <button type="button" id="popularBtn">Populair</button>
+        <button type="button" id="NewsBtn">Nieuws</button>
+        <button type="button" id="exploreBtn">Verkennen</button>
+        <span class="separator" id="separator2">_______________________________</span>
+        <button id="sources">BRONNEN</button>
+        <p id="p" class="hideP">
+            <button type="button" id="aboutBtn">Over Reddit</button>
+        </p>
+    </div>
+    <script src="javascript/javascript.js"></script>
 </body>
 </html>
