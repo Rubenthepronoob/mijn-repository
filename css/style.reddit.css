@@ -50,17 +50,6 @@ body {
     outline: none;
 }
 
-@media only screen and (max-width: 1200px) {
-    #topbar {
-        justify-content: flex-end;
-
-    }
-
-    #searchbar {
-        width: 75%;
-    }
-}
-
 #searchbar:hover {
     background-image:
         linear-gradient(to right, rgb(248, 248, 248), rgb(248, 248, 248)),
@@ -92,14 +81,6 @@ body {
 #searchbarinput::placeholder {
     padding-left: 5px;
     color: #8e8e8e;
-}
-
-#separator1 {
-    font-size: 15px;
-    line-height: 0.5;
-    margin-bottom: 0px;
-    font-weight: 100;
-    color: #e9e9e9;
 }
 
 #askBtn {
@@ -208,12 +189,35 @@ body {
     padding-right: 2%;
 }
 
-#popularBtn {
+#homebtn {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
     border: none;
     margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    justify-self: end;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+#homebtn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+#popularBtn {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 12px;
+    border: none;
     width: 100%;
     height: 40px;
     border-radius: 9px;
@@ -278,26 +282,6 @@ body {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
-#separator2 {
-    font-size: 15px;
-    line-height: 0.5;
-    margin-bottom: 0px;
-    font-weight: 100;
-    color: #e9e9e9;
-}
-
-#p {
-    margin-top: 0px;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #8e8e8e;
-}
-
-.hideP {
-    visibility: hidden;
-    height: 0;
-}
-
 #sources {
     display: flex;
     flex-direction: row;
@@ -318,6 +302,66 @@ body {
 
 #sources:hover {
     background-color: rgba(0, 0, 0, 0.08);
+}
+
+#p1 {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+.hideP1 {
+    visibility: hidden;
+    height: 0;
+}
+
+#p2 {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+.hideP2 {
+    visibility: hidden;
+    height: 0;
+}
+
+#p3 {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+.hideP3 {
+    visibility: hidden;
+    height: 0;
+}
+
+#p4 {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+.hideP4 {
+    visibility: hidden;
+    height: 0;
+}
+
+#p5 {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+.hideP5 {
+    visibility: hidden;
+    height: 0;
 }
 
 #aboutBtn {
@@ -702,6 +746,22 @@ body {
 }
 
 /* extra */
+
+#separator1 {
+    font-size: 15px;
+    line-height: 0.5;
+    margin-bottom: 0px;
+    font-weight: 100;
+    color: #e9e9e9;
+}
+
+#separator2 {
+    font-size: 15px;
+    line-height: 0.5;
+    margin-bottom: 0px;
+    font-weight: 100;
+    color: #e9e9e9;
+}
 
 #beta {
     color: #FF4500;
