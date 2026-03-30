@@ -108,8 +108,6 @@ body {
 
 #askBtn:hover {
     background-color: rgba(0, 0, 0, 0.08);
-    background-image: url('../images/askquestionbutton3.png');
-    background-size: 19px auto;
 }
 
 #rightbuttons {
@@ -202,11 +200,11 @@ body {
     background-color: transparent;
     color: #000000;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 250;
     justify-self: end;
     align-items: center;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: #DCE4E6;
 }
 #leftbar .button {
     display: flex;
@@ -427,23 +425,34 @@ div#leftbar .button:hover {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    width: 43%;
+    width: 42.5%;
     margin-top: 3%;
-    margin-left: -3%;
+    margin-left: -4%;
     align-self: center;
 }
 
 #fypsettings {
-    height: 20px;
+    height: 40px;
     margin-top: 4px;
 }
 
 #fyp #best {
     height: 30px;
+    background-color: #ffffff;
+    border-radius: 99px;
+    border-width: 0;
+    color: #60696E;
+
 }
 
+#fyp #best:hover {
+    background-color: #DCE4E6;
+}
 #fyp #raster {
     height: 30px;
+    border-radius: 99px;
+    border-color: none;
+    background-color: none;
 }
 
 /* extra */
