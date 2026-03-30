@@ -208,14 +208,13 @@ body {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.08);
 }
-
-.button {
+#leftbar .button {
     display: flex;
     flex-direction: row;
-    padding: 6px 12px;
+/*    padding: 6px 12px;*/
     border: none;
     width: 100%;
-    height: 40px;
+    padding: 12px;
     border-radius: 9px;
     background-color: transparent;
     color: #000000;
@@ -226,9 +225,10 @@ body {
     justify-items: left;
     cursor: pointer;
 }
-.button:hover {
+div#leftbar .button:hover {
     background-color: rgba(0, 0, 0, 0.08); 
 }
+
 #exploreBtn:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
@@ -315,7 +315,9 @@ body {
 #customfeeds:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
-
+#makecustomfeeds {
+    height: auto;
+}
 #recent {
     display: flex;
     flex-direction: row;
@@ -416,6 +418,32 @@ body {
 
 #copyrighttxt:hover {
     text-decoration: underline;
+}
+
+/* fyp(for you page) */
+
+#fyp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 43%;
+    margin-top: 3%;
+    margin-left: -3%;
+    align-self: center;
+}
+
+#fypsettings {
+    height: 20px;
+    margin-top: 4px;
+}
+
+#fyp #best {
+    height: 30px;
+}
+
+#fyp #raster {
+    height: 30px;
 }
 
 /* extra */
