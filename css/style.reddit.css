@@ -183,7 +183,8 @@ body {
 /* left sidebar */
 #leftbar {
     border-right: 1px solid #C6C6C6;
-    width: 14%;
+    width: 13%;
+    padding-left: 0.5%;
     height: 100%;
     left: 0;
     padding-right: 2%;
@@ -194,7 +195,7 @@ body {
     flex-direction: row;
     padding: 6px 12px;
     border: none;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
     height: 40px;
     border-radius: 9px;
@@ -204,16 +205,11 @@ body {
     font-weight: 400;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     cursor: pointer;
-}
-
-#homebtn:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
-#popularBtn {
+.button {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
@@ -224,83 +220,16 @@ body {
     background-color: transparent;
     color: #000000;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 250;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
+    justify-items: left;
     cursor: pointer;
 }
-
-#popularBtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.08); 
 }
-
-#NewsBtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#NewsBtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#exploreBtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
 #exploreBtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#sources {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    margin-left: 5px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #555555;
-    font-size: 13px;
-    font-weight: 200;
-    justify-self: end;
-    align-items: center;
-    cursor: pointer;
-}
-
-#sources:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
@@ -310,8 +239,6 @@ body {
     line-height: 1.5;
     color: #8e8e8e;
 }
-
-
 
 #p2 {
     margin-top: 0px;
@@ -345,348 +272,112 @@ body {
     visibility: hidden;
     height: 0;
 }
-#aboutBtn {
+
+#gamesonreddit {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
+    margin-left: 5px;
     border: none;
     width: 100%;
     height: 40px;
     border-radius: 9px;
     background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 200;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     cursor: pointer;
 }
 
-#aboutBtn:hover {
+#gamesonreddit:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+#customfeeds {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 12px;
+    margin-left: 5px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    background-color: transparent;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 200;
+    justify-self: end;
+    align-items: center;
+    cursor: pointer;
+}
+
+#customfeeds:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
-#advertizebtn {
+#recent {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
+
+    margin-left: 5px;
     border: none;
     width: 100%;
     height: 40px;
     border-radius: 9px;
     background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 200;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     cursor: pointer;
 }
 
-#advertizebtn:hover {
+#recent:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
-
-#developmentbtn {
+#communitys {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
+    margin-left: 5px;
     border: none;
     width: 100%;
     height: 40px;
     border-radius: 9px;
     background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 200;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     cursor: pointer;
 }
 
-#developmentbtn:hover {
+#communitys:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
-
-#redditprobtn {
+#sources {
     display: flex;
     flex-direction: row;
     padding: 6px 12px;
-    margin-right: 7px;
+    margin-left: 5px;
     border: none;
     width: 100%;
     height: 40px;
     border-radius: 9px;
     background-color: transparent;
-    font-size: 14px;
-    font-weight: 400;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 200;
     justify-self: end;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     cursor: pointer;
 }
 
-#redditprobtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#helpbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#helpbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#blogbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#blogbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#careersbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#careersbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#pressbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#pressbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#bestofredditbtn1 {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#bestofredditbtn1:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#bestofredditbtn2 {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#bestofredditbtn2:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#bestofredditbtn3 {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#bestofredditbtn3:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#rulesbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#rulesbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#privacypolicybtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#privacypolicybtn:hover {
-    background-color: rgba(0, 0, 0, 0, 0.08);
-}
-
-#termsbtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#termsbtn:hover {
-    background-color: rgba(0, 0, 0, 0.08);
-}
-
-#accessibilitybtn {
-    display: flex;
-    flex-direction: row;
-    padding: 6px 12px;
-    border: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 9px;
-    background-color: transparent;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: end;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    cursor: pointer;
-}
-
-#accessibilitybtn:hover {
+#sources:hover {
     background-color: rgba(0, 0, 0, 0.08);
 }
 
@@ -696,7 +387,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 14%;
+    width: 13.5%;
+    padding-top: 0.5%;
     left: 0;
     padding-right: 2%;
     border-right: 1px solid #C6C6C6;
@@ -729,14 +421,6 @@ body {
 /* extra */
 
 #separator1 {
-    font-size: 15px;
-    line-height: 0.5;
-    margin-bottom: 0px;
-    font-weight: 100;
-    color: #e9e9e9;
-}
-
-#separator2 {
     font-size: 15px;
     line-height: 0.5;
     margin-bottom: 0px;
