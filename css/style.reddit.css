@@ -311,21 +311,13 @@ body {
     color: #8e8e8e;
 }
 
-.hideP1 {
-    visibility: hidden;
-    height: 0;
-}
+
 
 #p2 {
     margin-top: 0px;
     font-size: 14px;
     line-height: 1.5;
     color: #8e8e8e;
-}
-
-.hideP2 {
-    visibility: hidden;
-    height: 0;
 }
 
 #p3 {
@@ -335,21 +327,11 @@ body {
     color: #8e8e8e;
 }
 
-.hideP3 {
-    visibility: hidden;
-    height: 0;
-}
-
 #p4 {
     margin-top: 0px;
     font-size: 14px;
     line-height: 1.5;
     color: #8e8e8e;
-}
-
-.hideP4 {
-    visibility: hidden;
-    height: 0;
 }
 
 #p5 {
@@ -359,11 +341,10 @@ body {
     color: #8e8e8e;
 }
 
-.hideP5 {
+.hide {
     visibility: hidden;
     height: 0;
 }
-
 #aboutBtn {
     display: flex;
     flex-direction: row;
