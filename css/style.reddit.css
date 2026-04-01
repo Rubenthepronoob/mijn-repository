@@ -7,7 +7,7 @@ body {
 }
 
 /* top navigation bar */
-#header {
+header {
     padding-bottom: 4px;
     width: 101%;
     margin-left: -10px;
@@ -426,7 +426,7 @@ div#leftbar .button:hover {
     align-items: flex-start;
     position: absolute;
     width: 42.5%;
-    margin-top: 3%;
+    margin-top: 55px;
     margin-left: -4%;
     align-self: center;
 }
