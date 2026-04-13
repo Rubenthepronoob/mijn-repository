@@ -467,21 +467,18 @@ div#leftbar .button:hover {
     border: none;
     background: none;
     align-self: normal;
-
+    justify-content: center;
 }
-#post #profile #profilepicture {
-    height: 30px;
+#post #profilepicture {
+    height: 30px ;
+    aspect-ratio: 1/1;
+    border-radius: 99px;
+    border: black solid 1px;
+}
+#post #profilename {
+    height: 18px;
     width: 30px;
     border-radius: 99px;
-    border-color: none;
-    background-color: none;
-}
-#post #profile #profilename {
-    height: 30px;
-    width: 30px;
-    border-radius: 99px;
-    border-color: none;
-    background-color: none;
 }
 
 #post {
@@ -492,7 +489,7 @@ div#leftbar .button:hover {
     width: 100%;
     background-color: bisque;
 }
-#post #postcontent {
+#post #posttitle, #post #posttext {
     display: flex;
     flex-direction: column;
     align-items: start;
