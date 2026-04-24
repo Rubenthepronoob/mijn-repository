@@ -3,8 +3,19 @@ header {
     background-color: #333;
     color: white;
     padding-left: 5px;
-    height: fit-content;
-    width: 1515px;
+    height: 9vh;
+    width: 98.5vw;
+    align-content: center;
+    text-decoration: none;
+}
+h1 {
+    margin: 0;
+
+
+}
+#h1 {
+    color: white;
+    text-decoration: none;
 }
 /* nav bar */
 nav {
@@ -13,13 +24,13 @@ nav {
     border-right: black solid 1px;
     width: 15vw;
     padding-top: 10px;
+    margin-top: 10px;
     height: 85vh;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 li {
     text-align: center;
@@ -34,9 +45,25 @@ li {
     width: 75%;
     text-decoration: none;
 }
-.subpage {
+#pagepoint {
     color: black;
     text-decoration: none;
+    font-size: 13px;
+}
+#subpage {
+    color: black;
+    text-decoration: none;
+}
+.subpagebutton {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    height: 25px;
+    width: 80%;
+    text-decoration: none;
+    margin-top: 5px;
 }
 .hide {
     display: none;
@@ -48,12 +75,14 @@ body {
 .content {
     display: flex;
     flex: 1;
-    padding-top: 10px;
 }
 /* infopage */
 main {
     flex: 1;
-
+    height: 85vh;
+    padding-left: 0.5vw;
+    padding-top: 10px;
+    overflow: scroll;
 }
 .infopage {
     background-color: #ffffff;

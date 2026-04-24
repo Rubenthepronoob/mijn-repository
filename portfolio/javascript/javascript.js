@@ -1,7 +1,6 @@
 const toggles = [
   ['about-btn', 'p1', 'about'],
   ['projects-btn', 'p2', 'projects'],
-  ['contact-btn', 'p3', 'contact'],
 ];
 toggles.forEach(([buttonId, targetId, secondtargetId]) => {
   document.getElementById(buttonId).addEventListener('click', () => {
