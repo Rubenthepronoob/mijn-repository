@@ -14,46 +14,42 @@
             <nav>
                 <ul>
                     <li>
-                        <button id="about-btn" class="navbutton"><a href="#about" id="subpage">About</a></button>
-                        <div id="p1">
-                            <ul>
-                                <li><button id="aboutme-btn" class="navbutton"><a href="#aboutme">About me</a></button></li>
-                                <li><button id="contact-btn" class="navbutton"><a href="#contact" id="pagepoint">Contact</a></button></li>
-                            </ul>
+                        <button id="projects-btn" class="navbutton"><a href="#projects" id="subpage">Projects</a></button>
+                        <div id="p2" class="hide">
+                            <button id="project1-btn" class="subbutton"><a href="#project1" id="pagepoint">project 1</a></button>
+                            <button id="project2-btn" class="subbutton"><a href="#project2" id="pagepoint">project 2</a></button>
                         </div>
                     </li>
                     <li>
-                        <button id="projects-btn" class="navbutton"><a href="#projects" id="subpage">Projects</a></button>
-                        <div id="p2" class="hide">
-                            <button id="project1-btn" class="subpagebutton"><a href="#project1">project 1</a></button>
-                            <button id="project2-btn" class="subpagebutton"><a href="#project2">project 2</a></button>
+                        <button id="about-btn" class="navbutton"><a href="#about" id="subpage">About</a></button>
+                        <div id="p1">
+                            <ul>
+                                <li><button id="aboutme-btn" class="subbutton"><a href="#aboutme" id="pagepoint">About me</a></button></li>
+                                <li><button id="contact-btn" class="subbutton"><a href="#contact" id="pagepoint">Contact</a></button></li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
             </nav>
             <main>
                 <section id="about">
-                    <div>
+                    <div id="aboutme">
                         <h2>About Me</h2>
                         <p>This is a brief introduction about myself.</p>
+                    </div>
+                    <div id="contact">
+                        <h2>Contact Me</h2>
+                        <p>You can reach me at example@email.com.</p>
                     </div>
                 </section>
                 <section id="projects" class="hide">
                     <div id="project1" class="project">
                         <h2>Project 1</h2>
                         <p>Description of project 1.</p>
-
                     </div>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <div id="project2" class="project">
                         <h2>Project 2</h2>
                         <p>Description of project 2.</p>
-                    </div>
-                </section>
-                <section id="contact" class="hide">
-                    <div>
-                        <h2>Contact Me</h2>
-                        <p>You can reach me at example@email.com.</p>
                     </div>
                 </section>
             </main>
