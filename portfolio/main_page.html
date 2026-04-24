@@ -1,9 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/main_page.css">
         
     </head>
     <body>
-        
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <div class="content">
+            <nav>
+                <ul>
+                    <li>
+                        <button id="about-btn" class="navbutton"><a href="#about">About</a></button>
+                        <div id="p1" class="hide">
+                            <button></button>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="projects-btn" class="navbutton"><a href="#projects" id="subpage">Projects</a></button>
+                        <div id="p2" class="hide">
+                            <button></button>
+                        </div>
+                    </li>
+                    <li>
+                        <button id="contact-btn" class="navbutton"><a href="#contact" id="subpage">Contact</a></button>
+                        <div id="p3" class="hide">
+                            <button></button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <section id="about" class="hide">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>This is a brief introduction about myself.</p>
+                    </div>
+                </section>
+                <section id="projects" class="hide">
+                    <div id="project1" class="project">
+                        <h2>Project 1</h2>
+                        <p>Description of project 1.</p>
+
+                    </div>
+                    <div id="project2" class="project">
+                        <h2>Project 2</h2>
+                        <p>Description of project 2.</p>
+                    </div>
+                </section>
+                <section id="contact" class="hide">
+                    <div>
+                        <h2>Contact Me</h2>
+                        <p>You can reach me at example@email.com.</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+        </main>
+        <script src="javascript/javascript.js"></script>            
     </body>
 </html>

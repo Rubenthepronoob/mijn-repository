@@ -1,0 +1,61 @@
+/* header */
+header {
+    background-color: #333;
+    color: white;
+    padding-left: 5px;
+    height: fit-content;
+    width: 1515px;
+}
+/* nav bar */
+nav {
+    background-color: #ffffff;
+    overflow: scroll;
+    border-right: black solid 1px;
+    width: 15vw;
+    padding-top: 10px;
+    height: 85vh;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    text-align: center;
+}
+.navbutton {
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+    width: 75%;
+    text-decoration: none;
+}
+.subpage {
+    color: black;
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex: 1;
+    padding-top: 10px;
+}
+/* infopage */
+main {
+    flex: 1;
+
+}
+.infopage {
+    background-color: #ffffff;
+    border: none;
+}
