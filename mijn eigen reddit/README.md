@@ -1,1 +1,1 @@
-this project is being made as practice for my next school and for funzies
+this project is being made for the funzies
