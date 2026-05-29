@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
         <title>Rubyfire</title>
@@ -12,10 +12,10 @@
             <h1><a href="index.html" id="h1">My Portfolio</a></h1>
         </header>
         <div class="content">
-            <nav id="nav">
+            <nav>
                 <ul>
                     <li>
-                        <a href="html/projects.html" id="projects-btn" class="navbutton"><button>Projects</button></a>
+                        <button id="projects-btn" class="navbutton"href><a id="subpage">Projects</a></button>
                         <div id="p1" class="hide">
                             <ul>
                                 <li><a href="#project1" id="pagepoint" class="subbutton">project 1</a></li>
@@ -24,7 +24,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="html/about.html" id="about-btn" class="navbutton"><button>About</button></a>
+                        <button id="about-btn" class="navbutton"><a id="subpage">About</a></button>
                         <div id="p2" class="hide">
                             <ul>
                                 <li><a href="#aboutme" id="pagepoint" class="subbutton">About me</a></li>
@@ -33,8 +33,8 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
-                        <a href="#contact" id="contact-btn" class="navbutton"><button>Contact</button></a>
+                    <li style="align-content: center;">
+                        <button id="contact-btn" class="navbutton"><a id="subpage">Contact</a></button>
                         <div id="p3">
 
                         </div>
@@ -43,7 +43,6 @@
             </nav>
             <div>
             <main class="infopage">
-                <div id="infopage-content">
                 <section id="about" class="hide">
                     <div id="aboutme">
                         <h2>About Me</h2>
@@ -69,7 +68,7 @@
                         <p>Description of project 2.</p>
                     </div>
                 </section>
-                </div>
+            </main>
                 <footer>
                     <section id="contact">
                         <div>
@@ -78,8 +77,9 @@
                         </div>
                     </section>
                 </footer>
-            </main>
             </div>
         </div>
+        </main>
+        <script src="javascript/javascript.js"></script>            
     </body>
 </html>
