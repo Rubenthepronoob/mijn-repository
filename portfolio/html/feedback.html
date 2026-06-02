@@ -24,8 +24,7 @@
                         <a href="feedback.html" id="feedback-btn" class="navbutton"><button>Feedback &darr;</button></a>
                         <div id="p1">
                             <ul>
-                                <li><a href="#form1" id="pagepoint" class="subbutton">form 1</a></li>
-                                <li><a href="#form2" id="pagepoint" class="subbutton">form 2</a></li>
+                                <li><a href="#form1" id="pagepoint" class="subbutton">feedback form</a></li>
                             </ul>
                         </div>
                     </li>
@@ -39,17 +38,30 @@
                     <div id="infopage-content">
                         <section id="form">
                             <div id="form1" class="form">
-                                <form action="/action_page.php">
-                                    <label for="fname">First name:</label><br>
-                                    <input type="text" id="fname" name="fname"><br>
-                                    <label for="lname">Last name:</label><br>
-                                    <input type="text" id="lname" name="lname"><br>
+                                <form action="../html/thanks.html" method="post">
+                                    <fieldset>
+                                    <legend>Select a feedback type:</legend>
+                                        <div>
+                                            <input type="radio" id="complaint" name="feedback_type" value="complaint"/>
+                                            <label for="complaint">Complaint</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="suggestion" name="feedback_type" value="suggestion"/>
+                                            <label for="suggestion">Suggestion</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="praise" name="feedback_type" value="praise" required/>
+                                            <label for="praise">Praise</label>
+                                        </div>
+                                    </fieldset>
+                                    <label for="name">name:</label><br>
+                                    <input type="text" id="name" name="name" required><br>
                                     <label for="email">Email:</label><br>
-                                    <input type="email" id="email" name="email"><br>
-                                    <label for="topic">Topic:</label><br>
-                                    <input type="text" id="topic" name="topic"><br>
+                                    <input type="email" id="email" name="email" required><br>
                                     <label for="feedback">Feedback:</label><br>
-                                    <input type="text" id="feedback" name="feedback"><br><br>
+                                    <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Type your message here..." required></textarea><br>
+                                    <label for="date">Date:</label><br>
+                                    <input type="date" name="book_date" id="book_date" required/><br><br>
                                     <input type="submit" value="Submit">
                                 </form> 
                             </div>

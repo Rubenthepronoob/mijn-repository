@@ -55,7 +55,7 @@ h1 {
     border-right: black solid 1px;
     width: 15vw;
     max-width: 250px;
-    min-width: 165px;
+    min-width: 185px;
     padding-top: 10px;
     margin: 0;
     z-index: 999;
@@ -117,10 +117,6 @@ button {
     color: black;
     text-decoration: none;
 }
-.hide {
-    display: none;
-}
-
 .content {
     display: flex;
     flex: 1;
@@ -128,14 +124,28 @@ button {
     align-items: stretch;
     margin-top: clamp(70px, 9vw, 90px);
 }
+button {
+    background-color: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+    width: 75%;
+    text-decoration: none;
+    margin: 1px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* infopage */
 .right-col {
-    margin-left: clamp(170px, calc(15vw + 10px), 250000px);
+    margin-left: clamp(190px, calc(15vw + 10px), 250000px);
     display: flex;
     flex-direction: column;
     flex: 1;
     min-width: 0;
 }
-/* infopage */
 .infopage {
     background-color: #ffffff;
     border: none;
@@ -157,25 +167,62 @@ footer {
     margin: 0;
     min-height: 80px;
 }
-.project {
+/*feedback form*/
+.form {
     background-color: #ffffff;
     border: none;
-    width: var(--infopage-width);
-    padding-left: 0.5vw;
-    padding-top: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
-button {
-    background-color: transparent;
-    border: 0;
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+label {
+    font-size: 18px;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="text"][id="feedback"] {
+    height: 200px;
+    align-items: flex-start;
+    overflow: auto;
+}
+input[type="submit"] {
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    border: rgb(0, 0, 0) solid 1px;
+    padding: 10px 20px;
     cursor: pointer;
-    height: 30px;
-    width: 75%;
-    text-decoration: none;
-    margin: 1px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+/*thank you screen*/
+.thank-you-screen {
+    position: absolute;
+    background-color: #ffffff;
+    border: none;
+    min-width: 0;
+    margin: 50vh 50vw 50vh 50vw;
+    transform: translate(-50%, -50%);
+}
+#thanks {
+    width: 50vw;
+    font-size: 5vw;
+    text-align: center;
+}
+#back-button {
+    font-size: 30px;
+}
+/*table*/
+table, th, td {
+  border:1px solid black;
+
+}
+#header-table {
+    font-size: 20px;
+}
